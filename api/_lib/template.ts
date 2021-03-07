@@ -159,7 +159,7 @@ export function getHtml(parsedReq: ParsedRequest) {
   <body>
     <div class="brand">
       <img class="logo" src="https://scontent-lax3-2.cdninstagram.com/v/t51.2885-19/s320x320/141109163_3941240225889046_6066970745713957948_n.jpg?tp=1&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_ohc=YSndtVuKH7EAX_yFW72&oh=4dcdf4776a8481c1a2af76619a57f276&oe=606D49F8">
-      Vote&nbsp;<span>Shrey&nbsp;/</span>for&nbsp;IHS&nbsp;ASB&nbsp;President
+      Vote&nbsp;Shrey&nbsp;for&nbsp;IHS&nbsp;ASB&nbsp;President
     </div>
     <div class="container">
       ${
@@ -178,7 +178,7 @@ export function getHtml(parsedReq: ParsedRequest) {
       )}</div>
       ${
         caption && caption !== 'undefined'
-          ? `<div class="caption">${emojify(sanitizeHtml(caption))}</div>`
+          ? ''
           : ''
       }
     </div>
